@@ -28,3 +28,4 @@ jobs:
         uses: education/autograding/actions/summarize@v1
         with:
           job: ${{ toJSON(steps.autograding.outputs) }}
+
